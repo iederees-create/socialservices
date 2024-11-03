@@ -1,82 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Services Marketplace</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Service Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
+
 <body>
-    <header>
-        <h1>Our Professional Services</h1>
-        <nav>
-            <a href="#services">Services</a>
-            <a href="#about">About Us</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <section id="services">
-        <div class="service">
-            <h2>Social Media Management</h2>
-            <p>Content archival, backup, and performance analysis for brands or influencers.</p>
-            <button class="button" onclick="openWallet()">Pay with Bitcoin</button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Services</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service1">Service 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service2">Service 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service3">Service 3</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
 
-        <div class="service">
-            <h2>Research and Data Analysis</h2>
-            <p>Trend reporting and competitor analysis.</p>
-            <button class="button" onclick="openWallet()">Pay with Bitcoin</button>
-        </div>
+    <div class="container mt-5">
+        <h1 id="service1">Service 1</h1>
+        <p>Description of Service 1.</p>
 
-        <div class="service">
-            <h2>Digital Marketing and Content Curation</h2>
-            <p>Curated content libraries and reposting services.</p>
-            <button class="button" onclick="openWallet()">Pay with Bitcoin</button>
-        </div>
+        <h1 id="service2">Service 2</h1>
+        <p>Description of Service 2.</p>
 
-        <div class="service">
-            <h2>Portfolio Creation for Influencers</h2>
-            <p>Highlight downloads and personal archiving packages.</p>
-            <button class="button" onclick="openWallet()">Pay with Bitcoin</button>
-        </div>
-
-        <div class="service">
-            <h2>Affiliate Marketing</h2>
-            <p>Thematic niche pages and hashtag-based content collections.</p>
-            <button class="button" onclick="openWallet()">Pay with Bitcoin</button>
-        </div>
-
-        <div class="service">
-            <h2>Content Recycling and Editing</h2>
-            <p>Video compilations and content refreshing.</p>
-            <button class="button" onclick="openWallet()">Pay with Bitcoin</button>
-        </div>
-
-        <div class="service">
-            <h2>Training and Consultation Services</h2>
-            <p>Workshops, tutorials, and consulting.</p>
-            <button class="button" onclick="openWallet()">Pay with Bitcoin</button>
-        </div>
-
-        <div class="service">
-            <h2>Lead Generation and Networking</h2>
-            <p>Influencer list creation and geolocation-based outreach.</p>
-            <button class="button" onclick="openWallet()">Pay with Bitcoin</button>
-        </div>
-    </section>
-
-    <div class="qr-code">
-        <h3>Scan QR Code:</h3>
-        <img src="https://api.qrserver.com/v1/create-qr-code/?data=bitcoin:34FvKDDsRRcDtvs8BeWPQG9pWuoaBRh8ZF&size=150x150" alt="QR Code">
-        <p>Bitcoin Address: <strong>34FvKDDsRRcDtvs8BeWPQG9pWuoaBRh8ZF</strong></p>
+        <h1 id="service3">Service 3</h1>
+        <p>Description of Service 3.</p>
     </div>
 
-    <script src="script.js"></script>
-
-    <!-- Floating WhatsApp Icon -->
-    <a class="whatsapp-icon" href="https://wa.me/27834758300" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 60px; height: 60px; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
-    </a>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
